@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="dist/css/fontawesome.min.css">
+    <link rel="stylesheet" href="dist/css/all.css">
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="dist/css/vendor.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/main.min.css">
+</head>
+<body>
+    <div class="box">
+        <section id="show">
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top">  
+                <div class="container">
+                    <a href="index.html" class="navbar-brand">Netflix<span class="text-primary font-weight-bold">ify</span></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <form action="" class="col-12 col-md-4 p-0">
+                        <div class="input-group">
+                            <input type="search" class="form-control bg-transparent border-0" placeholder="search.." aria-label="search.." aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                              <span class="input-group-text bg-transparent text-white border-0" id="basic-addon2"><i class="fa fa-search"></i></span>
+                            </div>
+                          </div>
+                    </form>
+
+                    <!-- login / register buttons in left ml-auto -->
+                    <ul class="navbar-nav ml-auto">
+                        <a href="login.html" class="btn btn-primary mr-0 mr-md-2">Login</a>
+                        <a href="register.html" class="btn btn-outline-light">Register</a>
+                    </ul>
+
+                    </div>
+                </div>
+            </nav>
+
+            <!-- start movies -->
+                <!-- first movie in carousel -->
+                <div class="movie">
+                    <div class="movie__bg" style="background: linear-gradient(rgba(0,0,0 , 0.7), rgba(0,0,0 , 0.7)), url('dist/images/ironman.jpg') center/cover no-repeat;"></div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 d-flex justify-content-center align-items-center" style="background:url('dist/images/ironman.jpg') center/cover no-repeat; height: 70vh;">
+                                <span class="movie__play-icon d-flex justify-content-center align-items-center"><i class="fas fa-play text-white fa-2x"></i></span>
+                            </div>
+                            <div class="col-md-4 text-white">
+                                <h3 class="movie__name fw-300">Iron Man</h3>
+                                <div class="d-flex">
+                                    <div class="">
+                                        <i class="fas fa-star text-primary mr-2"></i>
+                                        <i class="fas fa-star text-primary mr-2"></i>
+                                        <i class="fas fa-star text-primary mr-2"></i>
+                                        <i class="fas fa-star text-primary mr-2"></i>
+                                    </div>
+                                    <span class="">4.7</span>
+                                </div>
+                                <p class="movie__description my-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, voluptates, debitis illo saepe, dolorum pariatur ratione tempora recusandae provident culpa aut dignissimos! Veniam perferendis beatae officia corporis est quas optio!</p>
+                                <a href="" class="btn btn-primary text-capitalize"><i class="far fa-heart"></i>add to favourite</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+               
+        </section>
+
+
+        <section class="listing py-2">
+            <div class="container">
+                <div class="row my-4">
+                    <div class="col-12 d-flex justify-content-between">
+                        <h3 class="listing_title fw-300 text-white">Action</h3>
+                        <a href="" class="align-self-center">See All</a>
+                    </div>
+                </div>
+                <div class="movies owl-carousel owl-theme">
+                    <div class="movie p-0">
+                        <img src="dist/images/aladdin.jpg" class="img-fluid">
+                        <div class="movie__details text-white">
+                            <div class="d-flex justify-content-between">
+                                <p class="mb-0 movie__name">Movie Name</p>
+                                <p class="mb-0 align-self-center">2019</p>
+                            </div>
+                            <div class="d-flex movie__raiting">
+                                <div class="mr-2">
+                                    <i class="fa fa-star text-primary mr-1"></i>
+                                    <i class="fa fa-star text-primary mr-1"></i>
+                                    <i class="fa fa-star text-primary mr-1"></i>
+                                    <i class="fa fa-star text-primary mr-1"></i>
+                                </div>
+                                <span>4.5</span>
+                            </div>
+                            <div class="movie__view">
+                                <p>Views : 800</p>
+                            </div>
+                            <div class="d-flex movie__cta">
+                                <a href="" class="btn btn-primary flex-full mr-2"><i class="fas fa-play"></i>Watch Now</a>
+                                <i class="far fa-heart align-self-center fa-1x movie__fav-button"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="movie p-0">
+                        <img src="dist/images/foreigner.jpg" class="img-fluid">
+                        <div class="movie__details text-white">
+                            <div class="d-flex justify-content-between">
+                                <p class="mb-0 movie__name">Movie Name</p>
+                                <p class="mb-0 align-self-center">2015</p>
+                            </div>
+                            <div class="d-flex movie__raiting">
+                                <div class="mr-2">
+                                    <i class="fa fa-star text-primary mr-1"></i>
+                                    <i class="fa fa-star text-primary mr-1"></i>
+                                    <i class="fa fa-star text-primary mr-1"></i>
+                                    <i class="fa fa-star text-primary mr-1"></i>
+                                </div>
+                                <span>4.5</span>
+                            </div>
+                            <div class="movie__view">
+                                <p>Views : 300</p>
+                            </div>
+                            <div class="d-flex movie__cta">
+                                <a href="" class="btn btn-primary flex-full mr-2"><i class="fas fa-play"></i>Watch Now</a>
+                                <i class="far fa-heart align-self-center fa-1x movie__fav-button"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="movie p-0">
+                        <img src="dist/images/rajkumar.jpg" class="img-fluid">
+                        <div class="movie__details text-white">
+                            <div class="d-flex justify-content-between">
+                                <p class="mb-0 movie__name">Movie Name</p>
+                                <p class="mb-0 align-self-center">2015</p>
+                            </div>
+                            <div class="d-flex movie__raiting">
+                                <div class="mr-2">
+                                    <i class="fa fa-star text-primary mr-1"></i>
+                                    <i class="fa fa-star text-primary mr-1"></i>
+                                    <i class="fa fa-star text-primary mr-1"></i>
+                                    <i class="fa fa-star text-primary mr-1"></i>
+                                </div>
+                                <span>4.5</span>
+                            </div>
+                            <div class="movie__view">
+                                <p>Views : 300</p>
+                            </div>
+                            <div class="d-flex movie__cta">
+                                <a href="" class="btn btn-primary flex-full mr-2"><i class="fas fa-play"></i>Watch Now</a>
+                                <i class="far fa-heart align-self-center fa-1x movie__fav-button"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="movie p-0">
+                        <img src="dist/images/bharat.jpg" class="img-fluid">
+                        <div class="movie__details text-white">
+                            <div class="d-flex justify-content-between">
+                                <p class="mb-0 movie__name">Movie Name</p>
+                                <p class="mb-0 align-self-center">2015</p>
+                            </div>
+                            <div class="d-flex movie__raiting">
+                                <div class="mr-2">
+                                    <i class="fa fa-star text-primary mr-1"></i>
+                                    <i class="fa fa-star text-primary mr-1"></i>
+                                    <i class="fa fa-star text-primary mr-1"></i>
+                                    <i class="fa fa-star text-primary mr-1"></i>
+                                </div>
+                                <span>4.5</span>
+                            </div>
+                            <div class="movie__view">
+                                <p>Views : 300</p>
+                            </div>
+                            <div class="d-flex movie__cta">
+                                <a href="" class="btn btn-primary flex-full mr-2"><i class="fas fa-play"></i>Watch Now</a>
+                                <i class="far fa-heart align-self-center fa-1x movie__fav-button"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer id="footer" class="py-3 bg-primary text-center">
+            <p class="mb-0 text-white text-capitalize">&copy; all copy right reserved for Netflixify 2019</p>
+            <div class="social__icon">
+                <a href="" class="text-white mr-2"><i class="fab fa-facebook"></i></a>
+                <a href="" class="text-white mr-2"><i class="fab fa-youtube"></i></a>
+                <a href="" class="text-white mr-2"><i class="fab fa-twitter"></i></a>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="dist/js/jquery-3.4.1.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="dist/js/popper.min.js"></script>
+    <!-- vendor plugins js -->
+    <script src="dist/js/vendor.min.js"></script>
+
+    <script src="dist/js/main.min.js"></script>
+    <script>
+        $(document).ready(function(){
+        
+            $(".listing .movies").owlCarousel({
+                loop:true,
+                nav:false,
+                dots:false,
+                stagePadding:50,
+                items:1,
+                responsive:{
+                    480:{items:2},
+                    600:{items:4},
+                    900:{items:5},
+                },
+                margin:15
+            });
+        });
+    </script>
+</body>
+</html>
